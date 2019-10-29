@@ -1,0 +1,26 @@
+body{
+    background: #008C4F;
+}
+
+#cadastro-qrcode .form-control {
+    padding: 30px 10px;
+    font-size: 18px;
+    color: #008c4f;
+}
+
+#cadastro-qrcode .btn-default {
+    color: #333;
+    background-color: #fecd20;
+    border-color: #fecd20;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 25px;
+    box-shadow: #0000004f 2px 2px 3px;
+}
+
+#cadastro-qrcode label {
+    color: #FFF;
+    font-weight: normal;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
