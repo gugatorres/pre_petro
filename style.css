@@ -33,3 +33,10 @@ body{
     margin-bottom: 2px;
     font-size: 16px;
 }
+
+#cadastro-qrcode .logo-bottom-petro {
+    width: 40%;
+    margin: 100px auto;
+    display: block;
+    bottom: 0;
+}
