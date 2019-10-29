@@ -40,3 +40,17 @@ body{
     display: block;
     bottom: 0;
 }
+
+.logo-ok {
+    width: 20%;
+    margin: 60px auto 20px;
+    display: block;
+}
+
+.text-confirm{
+    color:#FFFFFF;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
