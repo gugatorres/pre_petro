@@ -13,8 +13,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-     <!--<link rel="stylesheet" href="style.css">-->
-     <link rel="stylesheet" href="https://gugatorres.github.io/pre_petro/style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="https://gugatorres.github.io/pre_petro/style.css">
 
     <link rel="shortcut icon" type="image/x-icon" media="all" href="https://www.petrobraspremmia.com.br/_ui/desktop/theme-premmia/images/favicon.ico">
 
@@ -79,23 +79,16 @@
                             <option>Masculino</option>
                             <option>Feminino</option>
                             <option>Indefinido</option>
-                          </select>
+                        </select>
                     </div>
 
                 </div>
 
                 <div class="col-md-12 col-xs-12">
-
                     <div class="form-group">
                         <a data-toggle="modal" data-target="#modal-confirmacao" class="btn btn-default">Cadastrar</a>
                     </div>
-
                 </div>
-
-
-
-
-                
             </div>
 
         </div>
@@ -104,28 +97,29 @@
     </div>
 
 
-<!-- Modal -->
-<div class="modal" id="modal-confirmacao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog modal-confirmation" role="document">
-      <div class="modal-content">
-        
-        <div class="row">
-            <div id="cadastro-qrcode" class="col-md-12 col-xs-12">
+    <!-- Modal -->
+    <div class="modal" id="modal-confirmacao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-confirmation" role="document">
+            <div class="modal-content">
 
-                <img class="logo-ok" src="images/check-mark.svg" alt="">
-                <h1>Obrigado! Cadastro realizado com Sucesso. </h1>
-                <p class="text-center text-confirm">
-                    Você receberá em instantes por email o QRCode para resgatar o seu café. <br> <br> Apresente-o na loja de conveniência <strong>Postos Berrini</strong>
-                </p>
-    
-                <a class="btn-back">Voltar</a>
-    
+                <div class="row">
+                    <div id="cadastro-qrcode" class="col-md-12 col-xs-12">
+
+                        <img class="logo-ok" src="images/check-mark.svg" alt="">
+                        <h1>Obrigado! Cadastro realizado com Sucesso. </h1>
+                        <p class="text-center text-confirm">
+                            Você receberá em instantes por email o QRCode para resgatar o seu café. <br> <br>
+                            Apresente-o na loja de conveniência <strong>Postos Berrini</strong>
+                        </p>
+
+                        <a class="btn-back">Voltar</a>
+
+                    </div>
+                </div>
+
             </div>
         </div>
-
-      </div>
     </div>
-  </div>
 
 
 
@@ -136,13 +130,13 @@
         crossorigin="anonymous"></script>
 
 
-<script>
+    <script>
 
-$(".btn-back").click(function(){
-    $('#modal-confirmacao').modal('hide');
-})
+        $(".btn-back").click(function () {
+            $('#modal-confirmacao').modal('hide');
+        })
 
-</script>
+    </script>
 
 </body>
 
