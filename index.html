@@ -74,7 +74,7 @@
 
                     <div class="form-group">
                         <label for="exampleInputPassword1">Sexo</label>
-                        <select class="form-control" style="padding: 0px; padding-left: 10px; height: 62px;">
+                        <select class="form-control select-control">
                             <option>Masculino</option>
                             <option>Feminino</option>
                             <option>Indefinido</option>
@@ -86,7 +86,7 @@
                 <div class="col-md-12 col-xs-12">
 
                     <div class="form-group">
-                        <a href="index-ok.html" class="btn btn-default">Cadastrar</a>
+                        <a data-toggle="modal" data-target="#modal-confirmacao" class="btn btn-default">Cadastrar</a>
                     </div>
 
                 </div>
@@ -102,11 +102,47 @@
         <img class="logo-bottom-petro" src="images/logo-premmia-BRC.png" alt="">
     </div>
 
+
+<!-- Modal -->
+<div class="modal" id="modal-confirmacao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-confirmation" role="document">
+      <div class="modal-content">
+        
+        <div class="row">
+            <div id="cadastro-qrcode" class="col-md-12 col-xs-12">
+
+                <img class="logo-ok" src="images/check-mark.svg" alt="">
+                <h1>Obrigado! Cadastro realizado com Sucesso. </h1>
+                <p class="text-center text-confirm">
+                    Você receberá em instantes por email o QRCode para resgatar o seu café. <br> <br> Apresente-o na loja de conveniência <strong>Postos Berrini</strong>
+                </p>
+    
+                <a class="btn-back">Voltar</a>
+    
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+
+
+<script>
+
+$(".btn-back").click(function(){
+    $('#modal-confirmacao').modal('hide');
+})
+
+</script>
+
 </body>
 
 </html>

@@ -1,56 +1,123 @@
-body{
-    background: #008C4F;
+
+.logo-bottom-petro {
+    display: none;
 }
 
 #cadastro-qrcode h1 {
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
+}
+
+.modal-content {
+    background-color: #008c4f;
     color: #FFF;
-    border-bottom: solid 1px #FFF;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
-
-#cadastro-qrcode .form-control {
-    padding: 30px 10px;
-    font-size: 18px;
-    color: #008c4f;
-}
-
-#cadastro-qrcode .btn-default {
-    color: #333;
-    background-color: #fecd20;
-    border-color: #fecd20;
-    width: 100%;
-    padding: 15px 10px;
-    font-size: 25px;
-    box-shadow: #0000004f 2px 2px 3px;
-}
-
-#cadastro-qrcode label {
-    color: #FFF;
-    font-weight: normal;
-    margin-bottom: 2px;
-    font-size: 14px;
-}
-
-.logo-bottom-petro {
-    width: 40%;
-    margin: 100px auto;
-    display: block;
-    bottom: 0;
 }
 
 .logo-ok {
-    width: 40%;
-    margin: 60px auto 20px;
+    width: 15%;
+    margin: 50px auto;
     display: block;
 }
 
-.text-confirm{
-    color:#FFFFFF;
-    font-size: 18px;
-    width: 80%;
-    margin: auto;
+.btn-back {
+    color: #333;
+    background-color: #fecd20;
+    border-color: #fecd20;
+    width: 60%;
+    padding: 15px 10px;
+    font-size: 25px;
+    box-shadow: #0000004f 2px 2px 3px;
     display: block;
+    margin: 40px auto 0;
+    text-align: center;
+    border-radius: 5px;
 }
+
+/* CSS MOBILE @MEDIA SCREEN */
+@media only screen and (max-width: 450px) {
+    
+    body{
+        background: #008C4F;
+    }
+    
+    #cadastro-qrcode h1 {
+        font-size: 22px;
+        text-align: center;
+        color: #FFF;
+        border-bottom: solid 1px #FFF;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #cadastro-qrcode .form-control {
+        padding: 30px 10px;
+        font-size: 18px;
+        color: #008c4f;
+    }
+    
+    #cadastro-qrcode .btn-default {
+        color: #333;
+        background-color: #fecd20;
+        border-color: #fecd20;
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 25px;
+        box-shadow: #0000004f 2px 2px 3px;
+    }
+    
+    #cadastro-qrcode label {
+        color: #FFF;
+        font-weight: normal;
+        margin-bottom: 2px;
+        font-size: 14px;
+    }
+
+    .select-control{
+        padding: 0px !important;
+        padding-left: 10px !important;
+        height: 62px;
+    }
+    
+    .logo-bottom-petro {
+        width: 40%;
+        margin: 100px auto;
+        display: block;
+        bottom: 0;
+    }
+    
+    .logo-ok {
+        width: 40%;
+        margin: 60px auto 20px;
+        display: block;
+    }
+    
+    .text-confirm{
+        color:#FFFFFF;
+        font-size: 18px;
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .modal-confirmation {
+        height: 100%;
+        width: 100%;
+        background: #008C4F;
+        left: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .modal-backdrop {
+        background-color: #008c4f;
+    }
+
+    .modal-content {
+        box-shadow: none;
+        border: none;
+        background-color: #008c4f;
+    }
+
+
+  }
+
